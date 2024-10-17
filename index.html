@@ -1,0 +1,228 @@
+
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>FEIRA DE CIÊNCIAS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5bece6c669.js" crossorigin="anonymous"></script>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/starter-template/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+
+    
+  </head>
+  <body>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="arrow-right-circle" viewBox="0 0 16 16">
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+  </symbol>
+  <symbol id="bootstrap" viewBox="0 0 118 94">
+    <title>Bootstrap</title>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+  </symbol>
+</svg>
+
+
+<div class="col-lg-8 mx-auto p-4 py-md-5">
+
+    <svg class="bi me-2" width="48" height="40" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        viewBox="0 0 512 512" xml:space="preserve">
+
+      <polygon style="fill:#9DA4B3;" points="244.035,244.035 244.035,244.034 244.031,244.034 126.269,198.43 8.502,244.034 
+        8.502,244.034 8.502,244.034 8.502,244.034 8.502,244.034 8.502,479.568 244.035,479.568 305.329,361.801 "/>
+      <polygon style="fill:#B4BBCC;" points="479.568,8.503 244.035,8.503 205.155,126.268 244.035,244.035 244.035,244.035 
+        244.035,244.035 244.035,244.035 244.035,244.035 365.611,279.987 479.563,244.035 479.568,244.035 "/>
+      <rect x="8.502" y="8.503" style="fill:#C7CFE2;" width="235.531" height="235.531"/>
+      <rect x="244.033" y="244.033" style="fill:#868C99;" width="235.531" height="235.531"/>
+      <circle style="fill:#7DD2F0;" cx="361.799" cy="361.799" r="141.695"/>
+      <path style="opacity:0.1;enable-background:new    ;" d="M242.776,384.472c0-78.257,63.44-141.696,141.696-141.696
+        c33.353,0,64.009,11.529,88.214,30.811c-25.961-32.59-65.981-53.483-110.885-53.483c-78.257,0-141.696,63.44-141.696,141.696
+        c0,44.905,20.894,84.924,53.484,110.885C254.305,448.48,242.776,417.825,242.776,384.472z"/>
+      <path d="M181.299,117.766H71.238c-4.695,0-8.502,3.807-8.502,8.502s3.806,8.502,8.502,8.502h110.062
+        c4.695,0,8.502-3.807,8.502-8.502S185.995,117.766,181.299,117.766z"/>
+      <path d="M126.269,298.268c-4.695,0-8.502,3.806-8.502,8.502v46.529H71.238c-4.695,0-8.502,3.806-8.502,8.502
+        c0,4.695,3.806,8.502,8.502,8.502h46.529v46.529c0,4.695,3.807,8.502,8.502,8.502s8.502-3.807,8.502-8.502v-46.529h46.529
+        c4.695,0,8.502-3.807,8.502-8.502c0-4.695-3.807-8.502-8.502-8.502H134.77V306.77C134.77,302.074,130.964,298.268,126.269,298.268z"
+        />
+      <path d="M406.726,81.343c-3.32-3.32-8.703-3.32-12.023,0l-32.902,32.902L328.9,81.343c-3.32-3.32-8.703-3.32-12.023,0
+        c-3.32,3.32-3.32,8.703,0,12.023l32.902,32.902l-32.902,32.902c-3.32,3.32-3.32,8.703,0,12.023c1.66,1.66,3.836,2.49,6.011,2.49
+        c2.175,0,4.352-0.83,6.011-2.49l32.902-32.902l32.902,32.902c1.66,1.661,3.836,2.49,6.011,2.49c2.175,0,4.352-0.83,6.011-2.49
+        c3.32-3.32,3.32-8.703,0-12.023l-32.902-32.902l32.902-32.902C410.046,90.047,410.046,84.663,406.726,81.343z"/>
+      <path d="M403.854,332.897H319.75c-4.695,0-8.502,3.807-8.502,8.502c0,4.695,3.807,8.502,8.502,8.502h84.103
+        c4.695,0,8.502-3.806,8.502-8.502C412.355,336.704,408.549,332.897,403.854,332.897z"/>
+      <path d="M403.854,373.701H319.75c-4.695,0-8.502,3.806-8.502,8.502c0,4.695,3.807,8.502,8.502,8.502h84.103
+        c4.695,0,8.502-3.806,8.502-8.502C412.355,377.508,408.549,373.701,403.854,373.701z"/>
+      <path d="M488.069,280.548V88.108c0-4.695-3.806-8.502-8.502-8.502c-4.695,0-8.502,3.807-8.502,8.502v170.626
+        c-16.955-17.986-37.97-31.394-61.127-39.221c-0.023-0.008-0.046-0.015-0.069-0.023c-15.453-5.212-31.76-7.887-48.068-7.887
+        c-29.917,0-57.816,8.795-81.256,23.932h-28.009V17.003h218.53v37.608c0,4.695,3.806,8.502,8.502,8.502
+        c4.695,0,8.502-3.806,8.502-8.502V8.502c0-4.695-3.807-8.502-8.502-8.502H8.502C3.807,0,0,3.806,0,8.502v392.87
+        c0,4.695,3.806,8.502,8.502,8.502s8.502-3.806,8.502-8.502V252.537h218.53v28.01c-15.135,23.439-23.931,51.338-23.931,81.254
+        c0,16.28,2.656,32.597,7.873,48.022c0.015,0.043,0.028,0.086,0.043,0.129c7.828,23.153,21.235,44.164,39.219,61.116H17.003v-36.11
+        c0-4.695-3.806-8.502-8.502-8.502S0,430.263,0,434.959v44.611c0,4.695,3.806,8.502,8.502,8.502h272.049
+        C303.989,503.206,331.887,512,361.802,512c26.769,0,53.062-7.141,76.034-20.652c4.047-2.38,5.398-7.591,3.019-11.638
+        c-2.38-4.048-7.59-5.399-11.638-3.019c-20.361,11.975-43.673,18.305-67.414,18.305c-57.236,0-106.15-36.289-124.956-87.065
+        c-5.447-14.707-8.24-30.447-8.24-46.13c0-73.445,59.751-133.195,133.196-133.195c14.642,0,29.282,2.42,43.134,7.172
+        c0.784,0.27,1.567,0.544,2.344,0.827c0.214,0.078,0.427,0.158,0.642,0.237c50.781,18.802,87.074,67.72,87.074,124.958
+        c0,36.4-14.415,70.395-40.589,95.724c-3.375,3.265-3.463,8.647-0.197,12.021c3.265,3.375,8.647,3.463,12.021,0.197
+        C495.746,441.182,512,402.847,512,361.8C512,331.885,503.205,303.987,488.069,280.548z M17.003,235.534V17.003h218.53v218.53H17.003
+        z M252.537,258.857v-6.32h6.32C256.688,254.581,254.581,256.688,252.537,258.857z"/>
+      </svg>
+      <span class="fs-2">Feira de Ciências: 3º TIST</span>
+      <p class="pequenoTxt"> ﾠDesenvolvido por: André Mariano, Ian Arantes, Kaiky Fadini, Heitor Rudio, Talita Bianca</p>
+      <HR><div class="container-fluid">
+
+
+
+  <!-- Starter Projects Column -->
+  <div class="col-md-12">
+
+  <h1 class="text-body-emphasis">Enxergando Medidas de Tendência Central</h1>
+    <p class="fs-6 col-md-12">Objetiva-se neste projeto a criação de um site que exiba as medidas de tendência central a partir da análise de dados da escolha do usuário. Buscando assim, tornar possível a análise gráfica das medidas de tendência central e facilitar a compreensão dos conceitos estatísticos para o 
+      usuário.</p>
+      <p class="fs-6 col-md-12">Abaixo estará em exibição <b>o gráfico, moda, mediana, média, variância, amplitude e desvio padrão.</b> Digite seus valores para que possamos exibir os dados corretamente:</p>
+  
+    <hr class="col-mb-12">
+    <div>
+      <label for="inTitulo">Título:</label>
+      <input type="text" id="inTitulo">
+
+      <label for="inTipoVariavel">Tipo da variável:</label>
+      <select id="inTipoVariavel">
+          <option value="qualitativa">Qualitativa</option>
+          <option value="quantitativa">Quantitativa</option>
+      </select>
+
+
+    </div>
+    <div>
+      <table>
+          <tr>
+              <td><input type="text" placeholder="Dado Coletado (exemplo: Ano)"  class="table-title" id="inDadoColetado"></td>
+              <td class="table-title">Quantidade da Amostra:</td>
+          </tr>
+          <tr>
+              <td><input type="text" placeholder="Amostra: (exemplo: 1990)" class="tdInfo"></td>
+              <td><input type="number" class="tdQtd"></td>
+          </tr>
+          <tr id="trButton">
+              <td colspan="2"><input type="button" id="btAddRow" value="+"></td>
+          </tr>
+      </table>
+      <input type="button" value="Mostrar" id="btMostrar">
+  </div>
+
+  <div id="exemplos">
+      Exemplos:
+      <input type="button" value="Andrés" id="btAndres" class="exemplo">
+      <input type="button" value="Distúrbios" id="btDisturbios" class="exemplo">
+      <input type="button" value="Notas" id="btNotas" class="exemplo">
+  </div>
+
+  <div id="grafico">
+      <div class="opcoes-grafico">
+          <input type="button" value="Coluna" class="chartType column">
+          <input type="button" value="Linha" class="chartType line">
+          <input type="button" value="Área" class="chartType area">
+          <input type="button" value="Pizza" class="chartType pie">
+      </div>
+      <div id="chartContainer"></div>
+  </div>
+
+  <div id="tendenciaCentral">
+
+  </div>
+
+
+
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+<script src="addRow.js"></script>
+<script src="index.js"></script>
+<script src="exemplos.js"></script>
+
+
+
+
+
+
+    </body>
+</html>
